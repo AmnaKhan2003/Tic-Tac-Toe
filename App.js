@@ -44,12 +44,12 @@ const checkWinner=()=>{
         
         if(pos1!=="" && pos2!=="" && pos3!==""){
             if(pos1==="O" && pos2==="O" && pos3==="O"){
-                mesg.textContent=`Congratulations! Winner is  O 😀 `;
+                mesg.textContent=`Congratulations!!!! Winner is  O 😀 `;
                 Disabled();
                 turns=0;
             }
             else if(pos1==="X" &&pos2==="X" && pos3==="X" ){
-                mesg.textContent="Congratulations! Winner is X 😀";
+                mesg.textContent="Congratulations!!!! Winner is X 😀";
                 Disabled();
                 turns=0;
                 
